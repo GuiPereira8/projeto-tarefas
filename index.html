@@ -11,19 +11,27 @@
     <!-- Link para ícones do Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Lista de Tarefas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
     <main>
-        <section>
-            <div>
+        <section class="container">
+            <div class="task-box" id="area">
                 <h1>Lista de Tarefas</h1>
-                <input type="text" name="tarefa" id="tarefa">
-                <input type="button" value="Registrar">
+                <input type="text" name="tarefa" id="itarefa" placeholder="Escreva sua tarefa...">
+                <button type="button">Registrar</button>
             </div>
-            <ul>
-                <li>
-                    <p>Estudar C# as 14h da tarde lorem</p>
+            <ul class="task-list">
+                <li class="task">
+                    <p>Estudar C# as 14h da tarde</p>
+                    <button type="button"><span class="fa-solid fa-trash"></span></button>
+                </li>
+                <li class="task">
+                    <p>Estudar React Native as 19h da noite no quarto </p>
+                    <button type="button"><span class="fa-solid fa-trash"></span></button>
+                </li>
+                <li class="task">
+                    <p>Estudar JavaScript as 14h da tarde Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, cupiditate! Ab nulla culpa aperiam in dolorum cumque tempora quasi quas impedit maxime repellendus, non temporibus ratione! Error quasi assumenda qui.</p>
                     <button type="button"><span class="fa-solid fa-trash"></span></button>
                 </li>
             </ul>
