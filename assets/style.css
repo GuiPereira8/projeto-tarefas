@@ -79,7 +79,7 @@ main {
     width: 100%;
     max-width: 452px;
     gap: 14px 0;
-    
+    margin-top: 28px;
 }
 
 .container .task-list .task {
@@ -90,7 +90,7 @@ main {
     gap: 5px;
 }
 .container .task-list .task > p {
-    background-color: #E0E5EC;
+    background-color: #FFF;
     padding: 12px 18px;
     border-radius: 32px;
     font-weight: 600;
